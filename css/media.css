@@ -2,54 +2,127 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
+	.p_item .port_item_cont{
+		width: 283px;
+		height: 229px;
+	}
+	.wrap_mnu .top_mnu{
 
+		float: none;
+	}
+	.wrap_mnu .top_mnu ul{
+		padding: 0;
+		width: 100%;
+		text-align: center;
+	}
+	.wrap_mnu .top_mnu ul li a{
+		font-size: 1.3em;
+	}
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-	.personal_last_block
+
+	.p_item .port_item_cont{
+		width: 210px;
+		height: 169px;
+	}
+	iframe{
+		height: 400px;
+	}
+
+	.wrap_mnu .top_mnu ul li a{
+		font-size: 1.1em;
+	}
+	
+	.personal_last_block{
 		margin-top: 35px;
+	}
+	.descr h3{
+		margin-top: 50px;
+	}
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-.cv_container .left,
-.section_content .cv_container h3,
-.cv_container .cv_icon{
-	text-align: left;
-	margin-bottom: 10px;
+
+
+	.main_head{
+		position: relative;
+	}
+
+
+			
+	.hidden-mnu{
+		font-size: em(15px);
+	}
+	iframe{
+		height: 300px;
+	}
+	.news_wrap {
+
+		padding: 50px 0 0;
 }
-.cv_container h3{
-	margin-top: 0
-}
-.cv_container h3.study{
-	margin-top: 50px;
-}
+	.gallery_wrap{
+		padding: 50px 0;
+	}
+	.news_wrap_bottom h3{
+		margin-top: 50px;
+	}
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-	.top_wrapper .top_text h1{
+	.about_paseka h2{
+		font-size: 1.7em;
+	}
+	.descr h2{
+		margin-top: 30px;
+		font-size: 1.77em;
+	}
+	.descr .blockquote{
+		font-size: 1.13em;
+	}
+	.p_item_descr h3{
+		font-size: 1.3em;
+	}
+	.register h1,
+	.register_bottom h1{
 		font-size: 2em;
-		padding-left: 10px;
-		padding-right: 10px;
 	}
-	.main_footer{
-		text-align: left;
+	.main-slogan{
+		padding-top: 30px;
 	}
-	.main_footer .social_wrap{
-		float: left;
-		margin-top: 20px;
-		width: 100%;
+	.main-slogan h1{
+		font-size: 1.9em;
 	}
-	.main_footer .social_wrap ul{
-		padding-left: 0;
+	.main-slogan p{
+		font-size: 1.3em;
+		color: #fff;
 	}
+	.main-slogan p a{
+		color: #fff;
+	}
+	.main-slogan p strong{
+		color: #fff;
+	}
+	.main-icons{
+		padding-bottom: 50px;
+	}
+	.p_item .port_item_cont{
+		width: 300px;
+		height: 243px;
+	}
+
 }
+
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
-
+	.p_item .port_item_cont{
+		width: 260px;
+		height: 211px;
+	}
 }
 
 

@@ -409,3 +409,22 @@
 
   @warn "The box-sizing mixin is deprecated and will be removed in the next major version release. This property can now be used un-prefixed.";
 }
+
+$placeholders: '-webkit-input-placeholder',
+               '-moz-placeholder',
+               '-ms-input-placeholder';
+
+@mixin placeholders {
+  @each $placeholder in $placeholders {
+    @if $placeholder == "-webkit-input-placeholder" {
+      "&::" + $placeholder {
+        @content;
+      }
+    }
+    @else {
+      "&:" + $placeholder {
+        @content;
+      }
+    }
+  }
+}

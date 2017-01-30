@@ -22,7 +22,28 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-
+	.contacts .social{
+		margin-left: 140px;
+	}
+	.programs .line-wrap .some_symbol_wrap{
+		right: 21px;
+	}
+	.main-slogan h1{
+		font-size: 2.8em;
+	}
+	.sauna_view embed{
+		height: 300px;
+	}
+	footer .proverb{
+		margin-top: 21px;
+		font-size: 0.8em;
+	}
+	footer .logo_bottom{
+		margin-left: 0;
+	}
+	.descr h2{
+		margin-top: 20px;
+	}
 	.p_item .port_item_cont{
 		width: 210px;
 		height: 169px;
@@ -73,6 +94,26 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+
+	footer .proverb{
+		float: left;
+	}
+	footer .logo_bottom{
+		
+		margin-left: 50px;
+	}
+	footer span{
+		font-size: 0.7em;
+	}
+	.programs .line-wrap p{
+		font-size: 1.1em;
+	}
+	.programs h2{
+		font-size: 2.8em;
+	}
+	.sauna_view embed{
+		height: 200px;
+	}
 	.about_paseka h2{
 		font-size: 1.7em;
 	}
@@ -119,6 +160,13 @@
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
+	.contacts .social{
+		margin-left: 110px;
+	}
+	.programs .line-wrap .some_symbol_wrap{
+		top: 21px;
+		right: -14px;
+	}
 	.p_item .port_item_cont{
 		width: 260px;
 		height: 211px;

@@ -8,7 +8,6 @@
 	<link rel="shortcut icon" href="favicon.png" />
 	<link rel="stylesheet" href="libs/bootstrap/bootstrap.min.css" />
 	<link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css" />
-	<link rel="stylesheet" href="libs/linea/styles.css" />
 	<link rel="stylesheet" href="libs/magnific-popup/magnific-popup.css" />
 	<link rel="stylesheet" href="libs/animate/animate.min.css" />
 	<link rel="stylesheet" href="css/fonts.css" />
@@ -83,8 +82,9 @@
 		<div class="main-slogan">
 			<div class="container">
 				<div class="col-md-12">
-					<h1>Банно-<strong>оздоровичий клуб «На Пасіці»</strong></h1>
-					<p>Забронювати за телефонами: <strong>+38 050 239 3838</strong>, <strong>+38 067 903 4535</strong></p>
+					<h1>Банно-<strong>оздоровчий клуб «На Пасіці»</strong></h1>
+					<p>Справжня чиста баня на дровах сімейного типу з дотриманням староруських звичаїв</p>
+					<p>Забронювати за телефонами: <strong>+38 050 239 3838</strong>, <strong>+38 067 903 4535</strong>, <a href="https://www.facebook.com/na.paceke/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></p>
 					
 				</div>
 			</div>
@@ -93,6 +93,7 @@
 		<div class="container">
 			<div class="col-md-12 col-sm-12 col-xs-12">
 				<div class="sauna_view">
+				
 						<object height="500" width="100%" align="middle"" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0">
 						<param name="movie" value="http://sauny.ua/pano/sauna_189/saunapano.swf" />
 						<param name="base" value="http://sauny.ua/pano/sauna_189/"/>
@@ -108,18 +109,18 @@
 
 		<div class="main-icons">
 			<div class="container">
-			<div class="col-md-2 col-sm-2 hidden-xs"></div>
-				<div class="col-md-2 col-sm-2 col-xs-5">
+			<div class="col-md-1 col-sm-1 hidden-xs"></div>
+				<div class="col-md-3 col-sm-3 col-xs-5">
 					<div class="left_img">
 						<img src="img/true.png" alt="Alt"></div>
 					</div>
 					<div class="col-md-4 col-sm-4 col-xs-2"></div>
-					<div class="col-md-2 col-sm-2 col-xs-5">
-					<div class="col-md-2 col-sm-2 hidden-xs"></div>
+					
+					<div class="col-md-3 col-sm-3 col-xs-5">
 						<div class="right_img">
 							<img src="img/false.png" alt="Alt"></div>
 						</div>
-
+						<div class="col-md-1 col-sm-1 hidden-xs"></div>
 					</div>
 				</div>
 
@@ -158,8 +159,8 @@
 		<div class="descr">
 			<h2>Неймовірна атмосфера <span>&amp;</span><strong> приємний відпочинок</strong></h2>
 			<p><strong>Банно-оздоровчий клуб "На Пасіці"</strong> – це незвичайне, мальовниче місце, створене для відпочинку душі і тіла!
-Унікальність закладу у втіленні старовинних програм паріння в комплексі з апітерапією, які допомагають зануритися в атмосферу справжнього оздоровчого процесу.</p>
-<p>Затишна банька розрахована для комфортного відпочинку 6ти гостей і працює за системою <span>"все включено"</span></p>
+Унікальність закладу у втіленні старовинних програм паріння, в комплексі з апітерапією, які допомагають зануритися в атмосферу справжнього оздоровчого процесу.</p>
+<p>Затишна банька сімейного типу розрахована для комфортного відпочинку  до 6-ти гостей і працює за системою <span>"все включено"</span></p>
 			
 
 			<div class="blockquote">
@@ -181,11 +182,17 @@
 		<div class="col-md-12">
 			
 		<h1>Зареєструйся та <strong>отримай бонус!</strong></h1>
-		<form action="#" method="post">
+		<form action="mail.php" method="post" id="callback_form">
 
-			<input type="text" class="text_name" placeholder="Ім'я*">
-			<input type="text" class="text_phone" placeholder="Ваш телефон*">
-			<input type="text" class="text_email" placeholder="E-mail*">
+			<!-- Hidden Required Fields -->
+			<input type="hidden" name="project_name" value="На Пасіці">
+			<input type="hidden" name="admin_email" value="andriy.zhuravlov@gmail.com">
+			<input type="hidden" name="form_subject" value="Заявка на реєсрацію">
+		<!-- END Hidden Required Fields -->
+
+			<input type="text" name="name"  placeholder="Ім'я*" required />
+			<input type="text" name="phone" placeholder="Ваш телефон*" required />
+			<input type="text" name="email" placeholder="E-mail*" required />
 			<button type="submit" class="btn-feedback">Зареєструйся</button>
 
 		</form>
@@ -226,7 +233,7 @@
 				</div>
 				<div class="p_item_descr">
 					<h3><a href="programs.html"><i class="fa fa-pagelines" aria-hidden="true"></i> Банні програми</a></h3>
-					<p class="p_brown">Наші банні технологи представляють Вам декілька <strong>банні</strong> програми.</p>
+					<p class="p_brown">До Ваших послуг декілька оздоровчих <strong>програм</strong> від наших банних технологів.</p>
 				</div>
 			</div>
 
@@ -256,18 +263,18 @@
 <section class="rules">
 <div class="container">
 	<div class="col-md-12">
-	<h2><strong>Правила</strong> відвідування нашого клубу</h2>
+	<h2><strong>Правила</strong> відвідування банного клубу</h2>
 	<p>Для максимально комфортного и безпечного відпочинку гостей  клубу «На Пасіці» у нас діють наступні правила:</p>
 	<div class="rules_wrap">
 		<ul>
 		<li>– Заборонено відвідувати комплекс в нетверезому стані.</li>
-		<li>– Заборонено палити на території комплексу. Тольки в спеціально відведених зонах.</li>
-		<li>– Бережно відноситись до майна комплексу. В разі умисної/ненавмисної шкоди майна комплексу (в т.ч. бій посуду) стягується плата в розмірі на розсуд адміністріції.</li>
-		<li>– Адміністрація не несе відповідальності за цінні речі гостей. При наявності цеінних речей, радимо зберігати їх в сейфі.</li>
-		<li>– Відвідувачам Клубу надається парковка на території комплексу БК «На Пасіці». Адміністрація не несе відповідальності за цінні речі гостей, залишені в автомобілі.</li>
-		<li>– Шанобливе ствалення до інших гостей комплексу, не допускати шуму.</li>
+		<li>– Заборонено палити на території комплексу. Тільки в спеціально відведених зонах.</li>
+		<li>– Бережно відноситись до майна комплексу. У разі умисної/ненавмисної шкоди майна комплексу (в т.ч. бій посуду) стягується плата в розмірі на розсуд адміністріції.</li>
+		<li>– Адміністрація не несе відповідальності за цінні речі гостей. При наявності цінних речей, радимо зберігати їх у роздягальні.</li>
+		<li>– Відвідувачам Клубу надається парковка на території БК «На Пасіці». Адміністрація не несе відповідальності за цінні речі гостей, залишені в автомобілі.</li>
+		<li>– Не допускати шуму.</li>
 	</ul>
-	<p>З повагою, Адміністрація БК «На Пасіці».</p>
+	<p>З повагою, Адміністрація БОК «На Пасіці».</p>
 	</div>
 	</div>
 </div>
@@ -280,12 +287,19 @@
 		<div class="col-md-12">
 			
 		<h1>Зареєструйся та <strong>отримай бонус!</strong></h1>
-		<form action="#" method="post">
+		<form action="mail.php" method="post" id="callback_form">
 
-			<input type="text" class="text_name" placeholder="Ім'я*">
-			<input type="text" class="text_phone" placeholder="Ваш телефон*">
-			<input type="text" class="text_email" placeholder="E-mail*">
+			<!-- Hidden Required Fields -->
+			<input type="hidden" name="project_name" value="На Пасіці">
+			<input type="hidden" name="admin_email" value="andriy.zhuravlov@gmail.com">
+			<input type="hidden" name="form_subject" value="Заявка на реєсрацію">
+		<!-- END Hidden Required Fields -->
+
+			<input type="text" name="name" placeholder="Ім'я*" required />
+			<input type="text" name="phone" placeholder="Ваш телефон*" required />
+			<input type="text" name="mail" placeholder="E-mail*" required />
 			<button type="submit" class="btn-feedback">Зареєструйся</button>
+
 		</form>
 		</div>
 	</div>
@@ -294,7 +308,9 @@
  <footer>
  <div class="container">
  	<div class="col-md-12">
- 		<span>&copy; Copyright Банний клуб «На Пасіці» 2017</span>
+ 		<span>&copy; Copyright Банно-оздоровчий клуб «На Пасіці» 2017</span>
+ 		<div class="logo_bottom"><a href="index.html"><img src="img/logo-bottom.png" alt="alt"></a></div>
+ 		<div class="proverb"><p>«Баня парить - здоров'я дарить»</p></div>
  	</div>
  </div>
  	
@@ -311,10 +327,7 @@
 	<script src="libs/respond/respond.min.js"></script>
 	<![endif]-->
 	<script src="libs/jquery/jquery-2.1.3.min.js"></script>
-	<script src="libs/parallax/parallax.min.js"></script>
 	<script src="libs/magnific-popup/jquery.magnific-popup.min.js"></script>
-	<script src="libs/mixitup/mixitup.min.js"></script>
-	<script src="libs/pagescroll2id/PageScroll2id.min.js"></script>
 	<script src="libs/waypoints/waypoints.min.js"></script>
 	<script src="libs/animate/animate-css.js"></script>
 	<script src="libs/jqBootstrapValidation/jqBootstrapValidation.js"></script>
